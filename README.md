@@ -1,9 +1,11 @@
-# ros2-teaching-ws
-A template repository for teaching robotics with ROS2
+# CMP9764 - Advanced Robotics, ROS Noetic Devcontainer
+A template repository for teaching robotics with ROS Noetic. 
+
+This repository is based on the [ros2-teaching-ws](https://github.com/lcas/ros2-teaching-ws) and has been downgraded to support ROS Noetic.
 
 ## Use case
 
-You can use this repository to start developing your ROS2 modules. It provides a preconfigured [Development Container](https://containers.dev/) with ROS2 installed, and a VNC based light Desktop integrated directly.
+You can use this repository to start developing your ROS modules. It provides a preconfigured [Development Container](https://containers.dev/) with ROS installed, and a VNC based light Desktop integrated directly.
 
 ## Usage
 
@@ -11,7 +13,7 @@ This is a repository template, ready for you to either *fork* it (being able to 
 
 ### Option 1: How to *fork* (recommended)
 
-Go to https://github.com/LCAS/ros2-teaching-ws and click on 
+Go to https://github.com/LCAS/CMP9764 and click on 
 
 ![Fork](.assets/fork.png) 
 
@@ -19,11 +21,11 @@ to create a GitHub Fork in your own GitHub account. Then continue to [clone](htt
 
 ### Option 2: How to *use as template*
 
-Go to https://github.com/LCAS/ros2-teaching-ws and click on 
+Go to https://github.com/LCAS/CMP9764 and click on 
 
 ![usetemplate](.assets/usetemplate.png)
 
-to create a new repository in your own GitHub account. Then continue to [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository on your computer. *Note: This repository is detached from the original one, so any changes in https://github.com/LCAS/ros2-teaching-ws happening after you created your own repository will have to be manually added.
+to create a new repository in your own GitHub account. Then continue to [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository on your computer. *Note: This repository is detached from the original one, so any changes in https://github.com/LCAS/CMP9764 happening after you created your own repository will have to be manually added.
 
 
 ### Setup your working environment
@@ -53,5 +55,3 @@ to create a new repository in your own GitHub account. Then continue to [clone](
 3. click on "Connect" and enter the password `vscode` when prompted:
 
    <img width="455" alt="image" src="https://github.com/LCAS/ros2-teaching-ws/assets/1153084/ddc224eb-5980-4d9a-994e-b05aa1e9fc1d">
-
-
