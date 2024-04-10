@@ -6,7 +6,7 @@
   //     // Uncomment block for local devcontainer building
   //     "dockerfile": "Dockerfile"
   //   },
-  "image": "lcas.lincoln.ac.uk/lcas/devcontainer/lcas-ros-cmp9764:noetic",
+  "image": "lcas.lincoln.ac.uk/lcas/devcontainer/lcas-ros-cmp9764-noetic:main",
   // Features to add to the dev container. More info: https://containers.dev/features.
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {}
