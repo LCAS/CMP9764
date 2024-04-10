@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: lcas
+    runs-on: ubuntu-latest
     steps:
       - name: Node Js
         uses: actions/setup-node@v4
