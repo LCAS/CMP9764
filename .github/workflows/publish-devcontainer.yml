@@ -32,6 +32,6 @@ jobs:
         if: ${{ github.event_name != 'pull_request' }} 
         uses: devcontainers/ci@v0.3
         with:
-          imageName: lcas.lincoln.ac.uk/lcas/devcontainer/lcas-ros-cmp9764-noetic
+          imageName: lcas.lincoln.ac.uk/lcas/devcontainer/ros_cmp9764
           push: always
-          imageTag: ${{ env.BRANCH }}
+          imageTag: noetic
