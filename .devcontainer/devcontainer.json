@@ -2,11 +2,11 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
   "name": "lcas-ros-cmp9764-noetic",
-  // 	"build": {
-  //     // Uncomment block for local devcontainer building
-  //     "dockerfile": "Dockerfile"
-  //   },
-  "image": "lcas.lincoln.ac.uk/lcas/devcontainer/lcas-ros-cmp9764-noetic:main",
+  "build": {
+    // Uncomment block for local devcontainer building
+    "dockerfile": "Dockerfile"
+  },
+  //"image": "lcas.lincoln.ac.uk/lcas/devcontainer/ros_cmp9764:noetic",
   // Features to add to the dev container. More info: https://containers.dev/features.
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {}
