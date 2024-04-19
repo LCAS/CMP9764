@@ -4,6 +4,7 @@
   "name": "lcas-ros2-cmp9764",
   "build": {
     // Uncomment block for local devcontainer building
+    "context": "..",
     "dockerfile": "Dockerfile"
   },
   //"image": "lcas.lincoln.ac.uk/lcas/devcontainer/ros_cmp9764:humble",
@@ -26,7 +27,7 @@
   // Use 'postCreateCommand' to run commands after the container is created.
   // "postCreateCommand": "bash .devcontainer/run.sh",
   "containerUser": "lcas",
-  "workspaceFolder": "/home/lcas/ws",
+  // "workspaceFolder": "/home/lcas/ws",
   // Configure tool-specific properties.
   // "customizations": {},
   "runArgs": ["--security-opt", "seccomp=unconfined", "--cap-add=NET_ADMIN"],

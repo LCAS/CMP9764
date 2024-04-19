@@ -1,7 +1,7 @@
-# CMP9764 - Advanced Robotics, ROS Noetic Devcontainer
-A template repository for teaching robotics with ROS Noetic. 
+# CMP9764 - Advanced Robotics
+A template repository for teaching robotics with ROS2 (Humble) and Moveit2
 
-This repository is based on the [ros2-teaching-ws](https://github.com/lcas/ros2-teaching-ws) and has been downgraded to support ROS Noetic.
+This repository is based on the [ros2-teaching-ws](https://github.com/lcas/ros2-teaching-ws).
 
 ## Use case
 
