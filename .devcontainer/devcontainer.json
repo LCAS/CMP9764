@@ -1,12 +1,12 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-  "name": "lcas-ros-cmp9764-noetic",
+  "name": "lcas-ros2-cmp9764",
   "build": {
     // Uncomment block for local devcontainer building
     "dockerfile": "Dockerfile"
   },
-  //"image": "lcas.lincoln.ac.uk/lcas/devcontainer/ros_cmp9764:noetic",
+  //"image": "lcas.lincoln.ac.uk/lcas/devcontainer/ros_cmp9764:humble",
   // Features to add to the dev container. More info: https://containers.dev/features.
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {}
